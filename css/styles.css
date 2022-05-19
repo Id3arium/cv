@@ -6,13 +6,18 @@ body{
   font-family: 'Merriweather', serif;
 }
 
-h2, h3{
-  font-family: 'Poppins', serif;
+h2 {
+  font-size: 2rem;
+  font-family: 'Monserrat', sans-serif;
+  margin: 15px auto 35px auto;
 }
+h3{
+}
+
 
 h1{
   font-family: 'Grape Nuts', cursive;
-  font-size: 50px;
+  font-size:5.5rem;
   margin: 125px auto 0px auto;
 }
 
@@ -39,15 +44,13 @@ p{
   position: absolute;
 }
 .cloud-top{
-  right: 25%;
+  left: 57%;
 }.cloud-bottom{
-  left: 25%;
+  right: 57%;
 }
 .mountain{
-  position: relative;
-  top: 125px;
   width: 700px;
-  margin: auto;
+  margin: 175px auto 0px auto;
   display: block;
 }
 
