@@ -23,27 +23,27 @@ p{
   border-width: 10px;
   padding: 20px;
 }
-.mid-container{
+.middle-container{
 
 
 }
 
-.bot-container{
+.bottom-container{
 
 
 }
 
-.cloud-top, .cloud-bottom{ 
+.cloud-top, .cloud-bottom{
   width: 200px;
   height: 100px;
   position: absolute;
 }
-.cloud-top{ 
+.cloud-top{
   right: 25%;
-}.cloud-bottom{ 
+}.cloud-bottom{
   left: 25%;
 }
-.mountain{ 
+.mountain{
   position: relative;
   top: 125px;
   width: 700px;
