@@ -6,36 +6,51 @@ body{
   font-family: 'Merriweather', serif;
 }
 
-h2 {
-  font-size: 2rem;
-  font-family: 'Monserrat', sans-serif;
-  margin: 15px auto 35px auto;
+h1, h2{
+  color:#66bfbf;
 }
-h3{
-}
-
-
 h1{
+  line-height: 1.5;
   font-family: 'Grape Nuts', cursive;
   font-size:5.5rem;
   margin: 125px auto 0px auto;
 }
-
-p{
+h2 {
+  font-size: 2rem;
+  font-weight: normal;
+  font-family: 'Monserrat', sans-serif;
+  margin: 15px auto 35px auto;
+}
+h3, a{
+  color: #11999e;
 }
 
 .top-container{
   border-width: 10px;
   padding: 20px;
 }
-.middle-container{
 
-
+.profile-img{
+  width: 192px;
 }
 
-.bottom-container{
+.skill-row{
+  width: 50%;
+  height: 225px;
+  margin: 0px auto;
+  text-align: left;
+  line-height: 2;
+}
 
-
+.coding-skill-img {
+  width: 25%;
+  margin-right: 25px;
+  float: left;
+}
+.mentoring-skill-img {
+  width: 22.5%;
+  margin-left: 25px;
+  float: right;
 }
 
 .cloud-top, .cloud-bottom{
@@ -45,12 +60,13 @@ p{
 }
 .cloud-top{
   left: 57%;
-}.cloud-bottom{
+}
+.cloud-bottom{
   right: 57%;
 }
 .mountain{
   width: 700px;
-  margin: 175px auto 0px auto;
+  margin: 200px auto 125px auto;
   display: block;
 }
 
