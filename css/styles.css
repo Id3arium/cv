@@ -45,6 +45,7 @@ p{
 
 .profile-img{
   width: 192px;
+
 }
 
 .skill-row{
@@ -62,7 +63,6 @@ p{
 }
 
 .mentoring-skill-img {
-  height: 100%;
   width: 22.5%;
   margin-left: 25px;
   float: right;
