@@ -15,9 +15,26 @@ let soundFiles = {
 for (let i = 0; i < drums.length; i++) {
     let drum = drums[i]
     drum.addEventListener("click", () => {
-        drum.style.color = "white"
-        let audio = new Audio(soundFiles[drum.innerHTML])
-        audio.play()
+        makeSound(drum.innerHTML)
+        highlightButton(drum.innerHTML)
     })
+}
+
+document.addEventListener("keypress", (e) => {
+    makeSound(e.key)
+    highlightButton(e.key)
+})
+
+function makeSound(key){
+    let audio = new Audio(soundFiles[key])
+    audio.play()
+}
+
+function highlightButton(key){
+    let button = document.querySelector("." + key)
+    button.classList.add("pressed") 
+    setTimeout( () => {
+        button.classList.remove("pressed") 
+    }, 150 )
 }
 
